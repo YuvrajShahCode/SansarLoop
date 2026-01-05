@@ -21,7 +21,7 @@ const Post = ({ post }) => {
     return (
         <div className="min-h-screen bg-gray-50 font-sans flex flex-col">
             <Head>
-                <title>{post.title} | MyBlog</title>
+                <title>{post.title} | SansarLoop</title>
                 <meta name="description" content={post.description || post.title} />
                 {/* Open Graph tags for better social sharing */}
                 <meta property="og:title" content={post.title} />
@@ -40,7 +40,7 @@ const Post = ({ post }) => {
                             datePublished: post.publishedAt,
                             author: [{
                                 "@type": "Person",
-                                name: post.author?.name || 'MyBlog',
+                                name: post.author?.name || 'SansarLoop',
                             }],
                             description: post.description,
                         })
