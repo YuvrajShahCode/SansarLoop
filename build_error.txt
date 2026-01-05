@@ -1,0 +1,77 @@
+﻿
+> blog-app@1.0.0 build
+> next build
+
+  Γû▓ Next.js 14.2.35
+  - Environments: .env.local
+
+   Linting and checking validity of types ...
+node.exe :  Γ¿» 
+ESLint must be 
+installed in order 
+to run during 
+builds: npm install 
+--save-dev eslint
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Users\Bina 
+Computer jnk\AppD ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: ( Γ¿» ES   
+ Lint mus...save-    
+dev eslint:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+   Creating an optimized production build ...
+Failed to compile.
+
+./lib/sanityClient.js
+Module not found: 
+Can't resolve 
+'next-sanity'
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+Import trace for 
+requested module:
+./pages/index.jsx
+
+./lib/sanityClient.js
+Module not found: 
+Can't resolve 
+'@sanity/image-url'
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+Import trace for 
+requested module:
+./pages/index.jsx
+
+./pages/blog/[slug].j
+sx
+Module not found: 
+Can't resolve 
+'@portabletext/react'
+
+https://nextjs.org/do
+cs/messages/module-no
+t-found
+
+
+> Build failed 
+because of webpack 
+errors
